@@ -6,7 +6,14 @@ import ReactDOM from 'react-dom';
 const meInReact =
   React.createElement('div', { className: 'me' }, 
     React.createElement('h1', {}, 'Andrea'),
-    React.createElement('p', )
+    React.createElement('p', {}, 'Who is learning React'),
+    React.createElement('ul', { className: 'my-interests' },
+      [
+        React.createElement('li', {}, 'Javacript'),
+        React.createElement('li', {}, 'React'),
+        React.createElement('li', {}, 'Javacript'),
+      ]
+    )
   );
 
 ReactDOM.render(
