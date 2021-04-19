@@ -11,7 +11,8 @@ const meInReact =
       [
         React.createElement('li', {}, 'Javacript'),
         React.createElement('li', {}, 'React'),
-        React.createElement('li', {}, 'Javacript'),
+        React.createElement('li', {}, 'Video Games'),
+        React.createElement('li', {}, 'Horses'),
       ]
     )
   );
